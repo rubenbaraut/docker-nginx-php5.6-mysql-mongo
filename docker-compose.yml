@@ -26,9 +26,9 @@ services:
         - ./data/mysql:/var/lib/mysql:cached
       environment:
         - MYSQL_ROOT_PASSWORD=root
-        - MYSQL_DATABASE=d4g
-        - MYSQL_USER=d4g
-        - MYSQL_PASSWORD=d4g
+        - MYSQL_DATABASE=test
+        - MYSQL_USER=test
+        - MYSQL_PASSWORD=test
     #mongo:
     #  image: mongo:2.4.14
     #  volumes:
